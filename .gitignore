@@ -1,0 +1,19 @@
+# Ignore all object files
+*.o
+
+# Ignore executable binaries (Linux/macOS/MinGW)
+TuringSimulator.exe
+
+# Ignore build artifacts in folders
+/build/
+/bin/
+/dist/
+
+# Ignore backup or temporary files
+*~
+*.swp
+
+# Ignore logs and OS junk
+*.log
+.DS_Store
+Thumbs.db
