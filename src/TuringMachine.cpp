@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 #include "TuringMachine.h"
 
 using std::cout;
@@ -32,8 +33,9 @@ void TuringMachine::run()
 {
     while (true) 
     {
+        Sleep(600);
         if (current_state == accept_state) {
-            cout << "\n\033[32mAccepted\033[0m\nFinal tape: ";
+            cout << "\n\033[32mAccepted\033[0m\n\033[34mFinal tape: \033[0m";
             printTape();
             cout << "\n\n\n";
             return;
