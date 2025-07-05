@@ -1,5 +1,6 @@
 # Ignore all object files
 *.o
+*.exe
 
 # Ignore executable binaries (Linux/macOS/MinGW)
 TuringSimulator.exe
