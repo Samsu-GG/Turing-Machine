@@ -31,7 +31,9 @@ Turing-Machine/
   ├── unary_multiply.tm  
   ├── unary_divide.tm  
   ├── palindrome.tm  
-  └── w2w.tm
+  ├── w2w.tm
+  └── unary_to_binary.tm
+
 
 ## ⚙️ Prerequisites
 

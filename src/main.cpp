@@ -26,8 +26,9 @@ int main()
         cout << "7. Unary Division\n";
         cout << "8. Palindrome\n";
         cout << "9. W2W where W->{0,1}*\n";
-        cout << "10.Exit\n";
-        cout << "Enter your choice (1-10): ";
+        cout << "10. Unary to Bianry\n";
+        cout << "11.Exit\n";
+        cout << "Enter your choice (1-11): ";
 
         int choice;
         cin >> choice;
@@ -81,6 +82,10 @@ int main()
             filepath = "machines/W2W.tm";
             break;
         case 10:
+            cout << "\n\nYou selected Uanry to Binary.\nEnter a string over {1} \nwhich is started 1 and ended with # and enter 0 according to your number then again input #\n(e.g., 1111#0000#)\n " << endl;
+            filepath = "machines/unary_to_binary.tm";
+            break;
+        case 11:
             cout << "\n\nThank You!" << endl;
             return 0;
         default:
