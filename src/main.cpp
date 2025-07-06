@@ -81,6 +81,10 @@ int main()
             filepath = "machines/W2W.tm";
             break;
         case 10:
+            cout << "\n\nYou selected uanry to Binary.\nEnter a string over {1}  (e.g., 1111)\n " << endl;
+            filepath = "machines/W2W.tm";
+            break;
+        case 11:
             cout << "\n\nThank You!" << endl;
             return 0;
         default:
