@@ -17,4 +17,4 @@ q4 _ -> q0 _ R
 q0 # -> q5 _ R 
 q5 1 -> q5 1 R
 q5 0 -> q5 0 R  
-q5 # -> ACCEPT B R 
+q5 # -> ACCEPT _ R 

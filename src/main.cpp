@@ -82,7 +82,7 @@ int main()
             filepath = "machines/W2W.tm";
             break;
         case 10:
-            cout << "\n\nYou selected Uanry to Binary.\nEnter a string over {1} \nwhich is started 1 and ended with # and enter 0 according to your number then again input #\n(e.g., 1111)\n " << endl;
+            cout << "\n\nYou selected Uanry to Binary.\nEnter a string over {1} \nwhich is started 1 and ended with # and enter 0 according to your number then again input #\n(e.g., 1111#0000#)\n " << endl;
             filepath = "machines/unary_to_binary.tm";
             break;
         case 11:
