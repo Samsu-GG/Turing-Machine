@@ -33,7 +33,7 @@ void TuringMachine::run()
 {
     while (true) 
     {
-        Sleep(600);
+        Sleep(500);
         if (current_state == accept_state) {
             cout << "\n\033[32mAccepted\033[0m\n\033[34mFinal tape: \033[0m";
             printTape();
