@@ -62,6 +62,7 @@ You will see a menu like:
 7. Unary Division  
 8. Palindrome  
 9. W2W where W ∈ {0,1}*
+10. Unary to Bianry
 
 Enter a number between 1–9 to choose the machine, then type your input tape (e.g., `111101` or `000111222`), and the simulator will print the tape step-by-step, finishing with ACCEPT or REJECT.
 
